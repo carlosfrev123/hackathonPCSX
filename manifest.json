@@ -1,0 +1,17 @@
+{
+    "name": "Price-Hider",
+    "version": "1.0.0",
+    "description": "Hides Prices :O ",
+    "manifest_version": 3,
+    "content_scripts":[
+        {
+        "matches": ["http://example.com/"],
+        "js": ["main.js"]
+        }
+    ],
+    "action": {
+        "default_title": " extensionTitle ",
+        "default_popup": "popup.html"
+    }
+    
+}
